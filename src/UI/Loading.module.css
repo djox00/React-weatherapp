@@ -1,0 +1,28 @@
+.loading-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(70, 3, 3, 0.055);
+  backdrop-filter: blur(8px);
+}
+
+.loading {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  z-index: 100;
+  overflow: hidden;
+  color: white;
+  font-weight: "600";
+  background-color: #1091b873;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,45 @@
+.search {
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.623);
+  color: white;
+  width: 20vmin;
+  border-radius: 20px;
+  border: transparent;
+  margin: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.search:hover {
+  background-color: rgba(67, 67, 75, 0.699);
+  cursor: text;
+  border: transparent;
+}
+.search:focus {
+  border-color: transparent;
+  border-style: none;
+  border: none;
+}
+
+.srchIcon {
+  display: inline;
+  text-align: left;
+  color: rgb(27, 159, 247);
+  margin: 0px;
+  cursor: pointer;
+}
+
+.search:focus {
+  border: transparent;
+}
+
+.search2 {
+  top: 0;
+  right: 0;
+  position: fixed;
+  margin-top: 15px;
+  margin-right: 20px;
+}

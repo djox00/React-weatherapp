@@ -1,0 +1,63 @@
+.forecastCard {
+  overflow: hidden;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  margin-top: 10rem;
+  /*  background-color: rgba(39, 201, 193, 0.151); */
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: auto;
+  border-radius: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-bottom: 25px;
+  background-color: #e6e8eb;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231b3868'/%3E%3Cstop offset='1' stop-color='%231b3868' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23124b67'/%3E%3Cstop offset='1' stop-color='%23124b67' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230d4c74'/%3E%3Cstop offset='1' stop-color='%230d4c74' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23203A5B'/%3E%3Cstop offset='1' stop-color='%23203A5B' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23163475'/%3E%3Cstop offset='1' stop-color='%23163475' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23056772'/%3E%3Cstop offset='1' stop-color='%23056772' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(70, 3, 3, 0.055);
+  backdrop-filter: blur(8px);
+}
+.x {
+  text-align: right;
+}
+@media only screen and (max-width: 990px) {
+  .forecastBackground {
+    height: 80%;
+  }
+  .border {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.671);
+  }
+  .border:last-child {
+    border: none;
+  }
+}
+
+.descriptionText {
+  color: rgba(255, 255, 255, 0.568);
+}
+
+.bodie {
+  padding: 40px;
+}
+
+.border {
+  border-right: solid 1px rgba(255, 255, 255, 0.671);
+}
+.border:last-child {
+  border: none;
+}

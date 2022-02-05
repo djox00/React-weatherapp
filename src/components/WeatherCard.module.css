@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.cardBackground {
+  text-align: right;
+  background-color: rgba(204, 200, 196, 0.103);
+  height: 350px;
+  width: 80%;
+  margin: 10px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17pt;
+  transition: 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+.cardBackgroundvalid {
+  text-align: right;
+  background-color: rgba(163, 104, 45, 0.103);
+  height: 450px;
+  width: 150%;
+  margin: 10px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17pt;
+  transition: 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cardBackground:hover {
+  transform: scale(1.1);
+}
+
+.breakLine {
+  margin: 10 10;
+  color: whitesmoke;
+}
+.city-description {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.desc p {
+  display: inline;
+  font-family: "Architects Daughter", cursive;
+}
+img {
+  filter: contrast(1.5);
+}
+.exit {
+  display: inline;
+  margin-right: 15px;
+}
+.exit-icon {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.664);
+}
+.exit-icon:hover {
+  cursor: pointer;
+  color: rgba(197, 37, 37, 0.61);
+  transition: 0.3s;
+}
+.center {
+  text-align: center;
+  margin-top: -40px;
+}
